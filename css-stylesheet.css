@@ -1,0 +1,17 @@
+h1 {
+  color: white;
+}
+div .first_block {
+  background-color: #6050DC;
+}
+p {
+  font-family: Helvetica, sans-serif;
+  size: 16px;
+  color: black;
+}
+p .category {
+  border: black;
+}
+h2 {
+ color: grey;
+}
