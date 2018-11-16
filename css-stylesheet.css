@@ -1,8 +1,42 @@
-h1 {
-  color: white;
+li {
+    display: inline;
+    float: left;
 }
-div .first_block {
-  background-color: #6050DC;
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+h1 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+h5 {
+  color: white;
+  font-size: 25px;
+}
+div.first_block {
+  margin: 0;
+  background-color: #4730d9;
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 50px;
 }
 p {
   font-family: Helvetica, sans-serif;
@@ -15,3 +49,66 @@ p .category {
 h2 {
  color: grey;
 }
+button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+img {
+  display: block;
+}
+
+/* video background */
+.cover {
+   bottom: 0;
+   left: 0;
+   overflow: hidden;
+   position: absolute;
+   right: 0;
+   top: 0;
+   z-index: 1;
+}
+
+.cover img, .cover video {
+   display: block;
+   height: auto;
+   left: auto;
+   max-width: none;
+   min-height: 100%;
+   min-width: 100%;
+   right: auto;
+   position: absolute;
+   top: 0;
+   width: auto;
+   z-index: 1;
+}
+
+@supports (transform: translateX(-50%)) {
+
+   .cover img, .cover video {
+       left: 50%;
+       top: 50%;
+       transform: translateX(-50%) translateY(-50%);
+   }
