@@ -79,7 +79,7 @@ h2 {
          rgba(0, 0, 0, 0.2),
          rgba(0, 0, 0, 0.2)
        ),
-       url(300x200/dashboard.jpg);
+       url(images/300x200/dashboard.jpg);
    }
 
    #planner {
@@ -88,7 +88,7 @@ h2 {
          rgba(0, 0, 0, 0.2),
          rgba(0, 0, 0, 0.2)
        ),
-       url(300x200/planner.jpg);
+       url(images/300x200/planner.jpg);
    }
 
    #poll {
@@ -97,7 +97,7 @@ h2 {
          rgba(0, 0, 0, 0.2),
          rgba(0, 0, 0, 0.2)
        ),
-       url(300x200/poll.jpg);
+       url(images/300x200/poll.jpg);
    }
 
    #checklist {
@@ -106,7 +106,7 @@ h2 {
          rgba(0, 0, 0, 0.2),
          rgba(0, 0, 0, 0.2)
        ),
-       url(/images/300x200/checklist.jpg);
+       url(images/300x200/checklist.jpg);
    }
 
    .module {
