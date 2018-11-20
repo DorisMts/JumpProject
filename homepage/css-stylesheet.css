@@ -26,6 +26,13 @@ ul {
 #login {
   float: right;
   display: inline;
+  width: 100px;
+}
+
+.login_img {
+  float: left;
+  margin-top: 12px;
+  margin-left: 10px;
 }
 
 
@@ -62,7 +69,16 @@ button {
     font-size: 16px;
     font-weight: bold;
     margin: 0 auto;
-    margin-bottom: 50px;
+}
+
+h6 {
+  color: white;
+  font-style: italic;
+  margin: 6px auto;
+}
+
+a {
+    color: white;
 }
 /* FIN HEADER VIDEO */
 
@@ -79,7 +95,7 @@ p .category {
   border: black;
 }
 h2 {
-  font-size: 25px;
+  font-size: 35px;
   color: grey;
 }
 h3 {
@@ -90,6 +106,39 @@ h4 {
   display: inline;
 }
 /* FIN GENERAL TEXT */
+
+/* 2EME BLOCK */
+.table_second_block_img {
+  float: right;
+  padding: 10px 10px 10px 10px;
+}
+
+.table_second_block {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 30px 10px 30px;
+}
+
+table {
+  border-spacing: 20px;
+}
+
+th {
+  width: 200px;
+  vertical-align: middle;
+}
+
+hr {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1px;
+  background-color: rgba(132, 132, 132, 0.08);
+  opacity: 0.4;
+}
+
+/* FIN 2EME BLOCK */
 
 /* 3EME BLOCK - AVANTAGES */
 
