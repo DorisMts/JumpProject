@@ -80,6 +80,29 @@ h6 {
 a {
     color: white;
 }
+
+.heading {
+  font-family: Helvetica, serif;
+}
+.subheading {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+/*================================================
+ Start Important Part
+ ==================================================*/
+.underline--magical {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+}
+.underline--magical:hover {
+  background-size: 100% 88%;
+}
 /* FIN HEADER VIDEO */
 
 /* GENERAL TEXT */
