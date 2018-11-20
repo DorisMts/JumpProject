@@ -22,6 +22,7 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
 #login {
   float: right;
@@ -39,60 +40,38 @@ ul {
 /* FIN BAR DE COMMANDE MENU */
 
 /* HEADER VIDEO */
-h1 {
+
+div.first_block {
+  height: 900px;
+  weight:100%;
+  }
+
+div.first_block_content {
+  margin: 0;
+  padding-top: 200px;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+}
+
+.first_block_content h1 {
   font-size: 50px;
   color: white;
   text-align: center;
+  z-index: 1;
 }
 
-h2 {
-    text-align: center;
-}
-h5 {
-  color: white;
-  font-size: 25px;
-}
-div.first_block {
-  margin: 0;
-  background-color: #4730d9;
-  padding-top: 50px;
+.first_block_content h2 {
+  z-index: 1;
   text-align: center;
 }
-button {
-    background-color: transparent;
-    border: 2px solid white;
-    color: #fff;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: bold;
-    margin: 0 auto;
-}
 
-h6 {
+.first_block_content h5 {
   color: white;
-  font-style: italic;
-  margin: 6px auto;
+  font-size: 25px;
+  z-index: 1;
 }
 
-a {
-    color: white;
-}
-
-.heading {
-  font-family: Helvetica, serif;
-}
-.subheading {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1em;
-  line-height: 1.5;
-}
-
-/*================================================
- Start Important Part
- ==================================================*/
 .underline--magical {
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
   background-repeat: no-repeat;
@@ -102,7 +81,56 @@ a {
 }
 .underline--magical:hover {
   background-size: 100% 88%;
+>>>>>>> master
 }
+
+.heading {
+  font-family: Helvetica, serif;
+}
+
+.subheading {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.first_block_content button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+ .first_block_content h6 {
+  color: white;
+  font-style: italic;
+  margin: 6px auto;
+}
+
+ first_block_content a {
+    color: white;
+}
+
+
+.first_block_video {
+  position: absolute;
+  right: 0;
+  top: 0;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+
 /* FIN HEADER VIDEO */
 
 /* GENERAL TEXT */
