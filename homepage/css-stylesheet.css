@@ -22,6 +22,7 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
 #login {
   float: right;
@@ -32,29 +33,40 @@ ul {
 /* FIN BAR DE COMMANDE MENU */
 
 /* HEADER VIDEO */
-h1 {
-  font-size: 50px;
-  color: white;
-  text-align: center;
-}
 
-h2 {
-    text-align: center;
-}
-h5 {
-  color: white;
-  font-size: 25px;
-}
+
 div.first_block {
+  height: 100vh;
+  weight:100%;
+  }
+
+div.first_block_content {
   margin: 0;
-  background-color: #4730d9;
   padding-top: 50px;
   text-align: center;
+  z-index: 1;
 }
-button {
+.first_block_content h1 {
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  z-index: 1;
+}
+
+.first_block_content h2 {
+    text-align: center;
+    z-index: 1;
+}
+.first_block_content h5 {
+  color: black;
+  font-size: 25px;
+  z-index: 1;
+}
+
+.first_block_content button {
     background-color: transparent;
-    border: 2px solid white;
-    color: #fff;
+    border: 2px solid black;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -63,7 +75,36 @@ button {
     font-weight: bold;
     margin: 0 auto;
     margin-bottom: 50px;
+    z-index: 1;
 }
+
+.first_block_video {
+  position: absolute;
+  display: flex;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: lightwhite;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+
+
 /* FIN HEADER VIDEO */
 
 /* GENERAL TEXT */
