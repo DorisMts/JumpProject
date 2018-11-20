@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <head>
   <link href="css-stylesheet.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,
+initial-scale=1.0">
 </head>
 <body>
   <header>
@@ -10,8 +12,9 @@
         <li><a href="news.asp">News</a></li>
         <li><a href="contact.asp">Contact</a></li>
         <li id="login">
-         <!-- <img src="images/300x200/login.png" alt="Login">-->
-         <a href="about.asp">Log in</a></li>
+         <th class="login_column"><img class="login_img" src="images/300x200/login.png" alt="Login"></th>
+         <th class="login_column"><a href="about.asp">Log in</a></th>
+         </li>
     </ul>
     <!-- FIN BAR DE COMMANDE MENU -->
 
@@ -20,36 +23,49 @@
 
       <div class="first_block_content">
         <h1>Escape your routine</h1>
-        <h5>Organise your next getaway in minutes</h5>
+        <h5 class="heading"><span class="underline--magical">Organise</span> your next getaway <span class="underline--magical">in minutes</span></h5>
         <button>CREATE YOUR NEXT ADVENTURE</button>
+       <h6>Already have an account? <a href="XXX">Log in</a></h6>
       </div>
 
       <div class="first_block_video">
-        <div class="color-overlay"></div>
         <video autoplay muted loop>
           <source src="video/convert3.mp4" type="video/mp4">
         </video>
       </div>
 
     </div>
+    
   <!-- FIN HEADER VIDEO -->
 
   <!-- 2EME BLOCK -->
 <div class="second_block">
     <h2>Share your ideas & plan every step of your next trips in no time</h2>
-    <h4>0 time wasting in miscommunication</h4>
-    <h4>A planner to take everywhere with you</h4>
-    <img src="images/300x200/timer.png" alt="timer">
-    <h4>Make your getaway a reality in seconds</h4>
-
+    <table class='table_second_block'>
+      <tr>
+        <th><img class="table_second_block_img" src="images/300x200/focus.png" alt="focus" width="70" height="70"></th>
+        <th>0 time wasting in <br>miscommunication</br></th>
+        <th><img class="table_second_block_img" src="images/300x200/transport.png" alt="transport" width="70" height="70"></th>
+        <th>A planner to take <br>everywhere with you</br></th>
+        <th><img class="table_second_block_img" src="images/300x200/timer.png" alt="timer" width="70" height="70"></th>
+        <th>Make your getaway <br>a reality in seconds</br></th>
+      </tr>
+    </table>
 </div>
+
+<hr></hr>
+
+  <!-- <svg>
+  <line x1="0" y1="0" x2="0" y2="0">
+</svg>-->
+
   <!-- FIN 2EME BLOCK -->
 
   <!-- 3EME BLOCK - AVANTAGES-->
 <div class="third_block">
     <div>
       <h2>Built for travellers, with travellers</h2>
-      <h3>A shared and user-friendly dashboard to helps you organise journey for a stress-free getaway <br>wherever, whenever.</br></h3>
+      <h3>A shared and user-friendly dashboard to help you organise journey for a stress-free getaway <br>wherever, whenever.</br></h3>
     </div>
 
 <div class="solution">
@@ -86,6 +102,9 @@
 
   <!-- FIN 3EME BLOCK -->
 
+
+    <!-- TEST : <h1 class="heading">Look At This <span class="underline--magical">Pretty</span> Underline</h1>
+  <h2 class="subheading">Wow this one  is super incredibly cool, and this <span class="underline--magical">one is on Multiple Lines!</span> I wish I had found this like thirty projects ago when I was representing the lollipop guild.</h2>  -->
 
   <script>
   </script>
