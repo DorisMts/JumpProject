@@ -10,9 +10,11 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
 li a:hover {
     background-color: rgba(0,0,0,1);
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -24,6 +26,7 @@ ul {
     width: 100%;
     z-index: 1;
 }
+
 #login {
   float: right;
   display: inline;
@@ -94,7 +97,7 @@ div.first_block_content {
   line-height: 1.5;
 }
 
-.first_block_content button {
+#button_intro_main {
   background-color: transparent;
   border: 2px solid white;
   color: white;
@@ -105,6 +108,20 @@ div.first_block_content {
   font-size: 16px;
   font-weight: bold;
   margin: 0 auto;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+  outline: 1px solid;
+  outline-color: rgba(255, 255, 255, .5);
+  outline-offset: 0px;
+}
+
+#button_intro_main:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
 }
 
  .first_block_content h6 {
@@ -112,8 +129,7 @@ div.first_block_content {
   font-style: italic;
   margin: 6px auto;
 }
-
- first_block_content a {
+.first_block_content a {
     color: white;
 }
 
@@ -122,12 +138,18 @@ div.first_block_content {
   position: absolute;
   right: 0;
   top: 0;
-  min-width: 100%;
-  max-width: 100%;
-  min-height: 100%;
-  width: 100%;
-  margin: 0 auto;
+  background-size: 100%;
   display: block;
+}
+
+#button_intro_cercle {
+  border-radius: 50%;
+  margin-top: 100px;
+  padding: 20px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  text-align: center;
 }
 
 
@@ -148,6 +170,7 @@ p .category {
 h2 {
   font-size: 35px;
   color: grey;
+  text-align: center;
 }
 h3 {
   text-align: center;
