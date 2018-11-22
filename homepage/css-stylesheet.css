@@ -148,7 +148,7 @@ div.first_block_content {
 #button_intro_cercle {
   border-radius: 50%;
   margin-top: 100px;
-  padding: 20px;
+  padding: 20px 20px 15px 20px;
   background-color: transparent;
   border: 2px solid white;
   color: white;
