@@ -352,7 +352,7 @@ hr {
 
 /* FIN 3EME BLOCK - AVANTAGES */
 
-/* FOOTER */
+/* BANNER FOOTER */
 .heading_typewrite {
   background-color:#125edcff;
   color:#fff;
@@ -398,4 +398,106 @@ hr {
   background-color: rgba(255,255,255,0.1)
 }
 
-/* END FOOTER */
+/* END BANNER FOOTER */
+
+/* FOOTER */
+
+.footer {
+  margin: auto;
+  border: 30px;
+  padding: 30px;
+  width: 100%;
+  top: 10px;
+}
+
+/* ICONE AVION */
+
+  #footer_p {
+    text-align: center;
+    font-size: 50px;
+    color: black
+    }
+
+/* FIN ICONE AVION */
+
+/* NEWSLETTER */
+
+    .footer_newsletter {
+        color: black;
+    }
+
+    #footer_subscribe {
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 30;
+        color: black;
+        text-transform: uppercase;
+        margin: 10;
+        position: relative;
+        top: 0%;
+        left: 150%;
+    }
+
+    #footer_newposts {
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 20;
+        color: black;
+        text-transform: capitalize;
+        margin: 10;
+        position: relative;
+        top: 20%;
+        left: 150%;
+    }
+
+    #footer_promise {
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 10;
+        color: black;
+        text-transform: uppercase;
+        margin: 10;
+        position: relative;
+        top: 45%;
+        left: 150%;
+    }
+
+    #footer_button {
+        width: 60px;
+        height: 20px;
+        margin: 10;
+        position: relative;
+        top: 55%;
+        left: 150%;
+    }
+
+/* FIN NEWSLETTER */
+
+/* LIEN DE REDIRECTION FOOTER */
+
+    .footer_table {
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 20;
+        color: black;
+        text-transform: uppercase;
+        margin: 10;
+        position: relative;
+        top: 0%;
+        right: 150%;
+      }
+
+  /* FIN LIEN DE REDIRECTION FOOTER */
+
+  /* SOCIAL MEDIA */
+
+  .footer_logo {
+      display: inline
+      float: left;
+      }
+
+  #footer_facebook {
+
+      }
+
+  /* FIN SOCIAL MEDIA */
