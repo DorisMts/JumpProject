@@ -40,5 +40,65 @@ ul {
   margin-left: 10px;
 }
 
-
 /* FIN BAR DE COMMANDE MENU */
+
+/* START FOOTER */
+
+.footer {
+  background: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.footer_table {
+color: white;
+border-collapse: collapse;
+}
+
+.tableline {
+border-bottom: 1px solid white;
+}
+
+#Contact {
+text-align: left;
+padding: 4px;
+}
+
+#Privacy {
+text-align: left;
+padding: 4px;
+}
+
+#Terms {
+text-align: left;
+padding: 4px;
+}
+
+#FAQ {
+text-align: left;
+padding: 4px;
+}
+
+tr th img {
+text-align: right;
+padding: 4px;
+}
+
+#About {
+text-align: right;
+padding: 4px;
+}
+
+#sentence1 {
+text-align: right;
+padding: 4px;
+}
+
+#sentence2 {
+text-align: right;
+padding: 4px;
+}
+
+/* END FOOTER */
