@@ -352,7 +352,7 @@ hr {
 
 /* FIN 3EME BLOCK - AVANTAGES */
 
-/* FOOTER */
+/* BANNER FOOTER */
 .heading_typewrite {
   background-color:#125edcff;
   color:#fff;
@@ -396,6 +396,18 @@ hr {
 
 #button_footer:hover {
   background-color: rgba(255,255,255,0.1)
+}
+
+/* END BANNER FOOTER */
+
+/* START FOOTER */
+
+.footer {
+  background: black;
+}
+
+.footer_table {
+color: white;
 }
 
 /* END FOOTER */
