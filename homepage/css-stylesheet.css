@@ -100,7 +100,7 @@ ul {
 }
 
 .subheading {
-  font-family: "Open Sans", sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 1em;
   line-height: 1.5;
 }
@@ -136,6 +136,7 @@ ul {
   color: white;
   font-style: italic;
   margin: 6px auto;
+  font-weight: normal;
 }
 .first_block_content a {
     color: white;
@@ -186,6 +187,11 @@ p .category {
 h3 {
   text-align: center;
   padding-bottom: 10px;
+  font-weight: normal;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  line-height: 35px;
+  font-size: 20px;
 }
 h4 {
   display: inline;
@@ -194,13 +200,11 @@ h4 {
 
 /* 2EME BLOCK */
 
-
-
 #first_title {
   color: white;
   font-size: 50px;
   padding-top: 84px;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
   text-align: center;
 }
 
@@ -210,6 +214,8 @@ h4 {
   line-height: 35px;
   text-decoration: none;
   text-align: center;
+  font-weight: normal;
+  font-size: 20px;
 }
 
 #video_chat {
@@ -219,22 +225,29 @@ h4 {
 }
 
 #h2_OurSolution {
-  background:#125edcff;
+  background-image: url(images/300x200/backgroundtitle.jpg);
+  background-size: cover;
+  width: 100%;
+  position: relative;
   font-size: 35px;
   color: white;
   text-align: center;
   text-transform: uppercase;
   padding: 50px;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 .second_block {
+  margin-top: 10px;
   padding-top: 30px;
   background: #242324;
   padding-bottom: 200px;
-  border-color: white;
+  /*border-color: white;
   border-style: solid;
-  border-width: 10px;
+  border-width: 10px;*/
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .table_second_block_img {
@@ -275,7 +288,9 @@ th {
   width: 300px;
   vertical-align: middle;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 30px;
 }
 
 tr {
@@ -307,9 +322,10 @@ tr {
 
 .highlight {
   background-color:#125edcff;
+  color: white;
 }
 
-.underline--magical-blue {
+/*.underline--magical-blue {
   background-image: linear-gradient(#f5f7f8, #f5f7f8 0%, #125edcff 100%);
   background-repeat: no-repeat;
   background-size: 100% 10px;
@@ -321,21 +337,17 @@ tr {
 
 .underline--magical-blue:hover {
   background-size: 100% 88%;
-}
+}*/
 
 /* FIN 2EME BLOCK */
 
 /* 3EME BLOCK - AVANTAGES */
 
-.third_block_header {
-  background-image: url(images/300x200/backgroundtitle.jpg);
+.third_block_h2 {
+  background-color:#242324;
   background-size: cover;
   width: 100%;
   position: relative;
-}
-
-
-.third_block_h2 {
   font-size: 35px;
   color: white;
   text-align: center;
@@ -347,9 +359,11 @@ tr {
 
 .solution {
   text-align: center;
+  font-family: Helvetica,sans-serif;
+  font-size: 18px;
 }
 
-   @import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
+
 
    #dashboard {
      background:
@@ -406,15 +420,15 @@ tr {
    }
 
    .module h2 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 200;
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
   color: white;
   text-transform: uppercase;
   margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
-  font-size:20px;
+  font-size: 20px;
   transform: translate(-50%, -50%);
 }
 
