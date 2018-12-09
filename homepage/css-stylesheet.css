@@ -194,6 +194,8 @@ h4 {
 
 /* 2EME BLOCK */
 
+
+
 #first_title {
   color: white;
   font-size: 50px;
@@ -216,6 +218,14 @@ h4 {
   margin: 0 auto;
 }
 
+#h2_OurSolution {
+  background:#125edcff;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 50px;
+}
 
 .second_block {
   padding-top: 30px;
@@ -278,9 +288,9 @@ tr {
 }
 
 .blue_separation {
-  border-color: #0028F4;
+  border-color:#125edcff;
   border-radius: 10%;
-  background-color: rgba(0, 40, 244, 1);
+  background-color:#125edcff;
   width: 60px;
   height: 3px;
   margin-top: 0;
@@ -289,14 +299,14 @@ tr {
 
 .p_second_block {
   color: white;
-  background-color: rgba(0, 40, 244, 1);
+  background-color:#125edcff;
   margin-top: 0;
   margin-bottom: 0;
   display: inline;
 }
 
 .highlight {
-  background-color: #0028F4;
+  background-color:#125edcff;
 }
 
 .underline--magical-blue {
@@ -317,13 +327,22 @@ tr {
 
 /* 3EME BLOCK - AVANTAGES */
 
+.third_block_header {
+  background-image: url(images/300x200/backgroundtitle.jpg);
+  background-size: cover;
+  width: 100%;
+  position: relative;
+}
+
+
 .third_block_h2 {
   font-size: 35px;
-  color: grey;
+  color: white;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 50px;
 }
 
 .solution {
