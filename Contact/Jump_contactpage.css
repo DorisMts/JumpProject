@@ -44,8 +44,7 @@ ul {
 
 hr {
   border: 20px;
-  height: 200px;
-  color: rgba(255,255,255,0.1)
+  height: 200%;
   background-color: rgba(255,255,255,0.1);
 }
 
@@ -91,9 +90,17 @@ p .profiledescription {
 
 /* GOOGLE FORM */
 
+#contactustitle {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  size: 30px;
+  }
+
 .googleform {
-  position: absolute;
+  position: relative;
   left: 200px;
+  margin-left: auto;
+	margin-right: auto;
   }
 
 /* FIN GOOGLE FORM */
@@ -102,7 +109,7 @@ p .profiledescription {
 
 .footer {
   background: black;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
 }
