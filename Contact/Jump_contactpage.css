@@ -42,6 +42,62 @@ ul {
 
 /* FIN BAR DE COMMANDE MENU */
 
+hr {
+  border: 20px;
+  height: 200px;
+  color: rgba(255,255,255,0.1)
+  background-color: rgba(255,255,255,0.1);
+}
+
+/* CONTACT INFORMATION */
+
+.profilerow {
+  webkit-columns: 3 150px;
+  moz-columns: 3 150px;
+  columns: 3 150px;
+  webkit-column-gap: 1em;
+  moz-column-gap: 1em;
+  column-gap: 1em;
+  }
+
+.contactprofiles {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  size: 30px;
+  }
+
+.img-circle {
+    display: block;
+    margin: 0 auto;
+
+    width: 195px;
+    height: 220px;
+    border-radius: 50%;
+  }
+
+h3 .profilename {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  size: 20px;
+  }
+
+p .profiledescription {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  size: 15px;
+  }
+
+/* FIN CONTACT INFORMATION */
+
+/* GOOGLE FORM */
+
+.googleform {
+  position: absolute;
+  left: 200px;
+  }
+
+/* FIN GOOGLE FORM */
+
 /* START FOOTER */
 
 .footer {
@@ -51,10 +107,12 @@ ul {
   width: 100%;
 }
 
-
 .footer_table {
 color: white;
 border-collapse: collapse;
+display: table-footer-group;
+vertical-align: middle;
+border-color: inherit;
 }
 
 .tableline {
@@ -84,6 +142,8 @@ padding: 4px;
 tr th img {
 text-align: right;
 padding: 4px;
+max-width: 50px;
+height: 50px;
 }
 
 #About {
