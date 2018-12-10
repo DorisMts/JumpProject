@@ -136,10 +136,10 @@ hr {
   position: relative;
   bottom: 0;
   width: 100%;
-  height: 200px;
+  height: 100%;
 }
 
-.footer_table {
+.footer_columns {
   webkit-columns: 2;
   moz-columns: 2;
   columns: 2;
@@ -147,7 +147,7 @@ hr {
   moz-column-gap: 0;
   column-gap: 0;
   color: white;
-  padding: 20px 50px 0px 200px;
+  padding: 20px 50px 0px 150px;
 }
 
 /*.footer_table {
@@ -189,7 +189,7 @@ padding: 4px;
   height: 30px;
 }*/
 
-.col-3-auto {
+.text-center {
 text-align: center;
 color: white;
 margin: 0 auto;
@@ -207,17 +207,25 @@ border-right: solid;
 border-color: black;
 }
 
-.footer_icone {
+.img-responsive {
   padding: 0 0 20 0;
-}
-
-.footermenu {
-  text-decoration: underline;
 }
 
 #Aboutus {
 text-decoration: underline;
 column-rule-color: white;
+}
+
+.footeritem a:hover {
+   color: white;
+   text-decoration: underline;
+   overflow: hidden;
+}
+
+span.unclickable {
+    color: white;
+    cursor: not-allowed;
+    text-decoration: none;
 }
 
 /*.th_footer {
@@ -247,6 +255,5 @@ text-align: left;
 
 #sentence2 {
 text-align: left;*/
-}
 
 /* END FOOTER */
