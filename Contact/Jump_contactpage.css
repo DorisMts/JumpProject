@@ -1,0 +1,259 @@
+li {
+    display: inline;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgba(0,0,0,1);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#login {
+  float: right;
+  display: inline;
+  width: 100px;
+}
+
+.login_img {
+  float: left;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+
+/* FIN BAR DE COMMANDE MENU */
+
+hr {
+  /*display: block;
+  margin-before: 0.5em;
+  margin-after: 0.5em;
+  margin-start: auto;
+  margin-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 4px;*/
+  height: 300px;
+  border: none;
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: #125edcff;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+/*hr:after {
+    background: rgba(0,0,0,0.8);
+    padding: 0 6px;
+    position: relative;
+    top: -13px;
+}*/
+
+/* CONTACT INFORMATION */
+
+
+#whoarewe {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  size: 30px;
+  }
+
+.second_block_content {
+  webkit-columns: 3 150px;
+  moz-columns: 3 150px;
+  columns: 3 150px;
+  webkit-column-gap: 1em;
+  moz-column-gap: 1em;
+  column-gap: 1em;
+    }
+
+.img-circle {
+    display: block;
+    margin: 0 auto;
+
+    width: 195px;
+    height: 220px;
+    border-radius: 50%;
+  }
+
+.profilename {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  size: 20px;
+  }
+
+.profiledescription {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  size: 15px;
+  padding: 10px 40px 10px 40px;
+  }
+
+/* FIN CONTACT INFORMATION */
+
+/* GOOGLE FORM */
+
+#contactustitle {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  size: 30px;
+  }
+
+
+.googleform {
+  position: center;
+  left: 200px;
+  margin-left: auto;
+	margin-right: auto;
+  }
+
+/* FIN GOOGLE FORM */
+
+/* START FOOTER */
+
+.footer {
+  background: black;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.footer_columns {
+  webkit-columns: 2;
+  moz-columns: 2;
+  columns: 2;
+  webkit-column-gap: 0;
+  moz-column-gap: 0;
+  column-gap: 0;
+  color: white;
+  padding: 20px 50px 0px 150px;
+}
+
+/*.footer_table {
+  color: white;
+  display: table-footer-group;
+  vertical-align: middle;
+  border-color: inherit;
+  border-bottom: 1px none white;
+  width: 200px;
+}
+
+.tableline {
+  border-bottom: 1px none white;
+}*/
+
+/* #Contact {
+text-align: left;
+padding: 0;
+}
+
+#Privacy {
+text-align: left;
+padding: 4px;
+}
+
+#Terms {
+text-align: left;
+padding: 4px;
+}
+
+#FAQ {
+text-align: left;
+padding: 4px;
+}*/
+
+/*tr th img {
+  text-align: right;
+  max-width: 50px;
+  height: 30px;
+}*/
+
+.text-center {
+text-align: center;
+color: white;
+margin: 0 auto;
+border-left: solid;
+border-right: solid;
+border-color: black;
+}
+
+.col-9-auto {
+text-align: center;
+color: white;
+margin: 0 auto;
+border-left: solid;
+border-right: solid;
+border-color: black;
+}
+
+.img-responsive {
+  padding: 0 0 20 0;
+}
+
+#Aboutus {
+text-decoration: underline;
+column-rule-color: white;
+}
+
+.footeritem a:hover {
+   color: white;
+   text-decoration: underline;
+   overflow: hidden;
+}
+
+span.unclickable {
+    color: white;
+    cursor: not-allowed;
+    text-decoration: none;
+}
+
+/*.th_footer {
+  height: 20px;
+}*/
+
+/*items_footer {
+  width: 1000px;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: normal;
+  font-size: 15px;
+  padding-top: 0;
+  height: 20px;
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+}*/
+
+/*#About {
+text-align: left;
+padding: 4px;
+font-weight: bold;
+}
+
+#sentence1 {
+text-align: left;
+}
+
+#sentence2 {
+text-align: left;*/
+
+/* END FOOTER */
