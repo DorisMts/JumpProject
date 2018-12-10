@@ -100,7 +100,6 @@ hr {
   text-align: center;
   font-family: Helvetica, sans-serif;
   size: 20px;
-
   }
 
 .profiledescription {
@@ -120,6 +119,7 @@ hr {
   size: 30px;
   }
 
+
 .googleform {
   position: center;
   left: 200px;
@@ -136,22 +136,36 @@ hr {
   position: relative;
   bottom: 0;
   width: 100%;
+  height: 200px;
 }
 
 .footer_table {
-color: white;
-display: table-footer-group;
-vertical-align: middle;
-border-color: inherit;
+  webkit-columns: 500px 2;
+  moz-columns: 500px 2;
+  columns: 500px 2;
+  webkit-column-gap: 0;
+  moz-column-gap: 0;
+  column-gap: 0;
+  color: white;
+  padding: 10px 5px 0px 150px;
+}
+
+/*.footer_table {
+  color: white;
+  display: table-footer-group;
+  vertical-align: middle;
+  border-color: inherit;
+  border-bottom: 1px none white;
+  width: 200px;
 }
 
 .tableline {
-border-bottom: 1px solid white;
-}
+  border-bottom: 1px none white;
+}*/
 
-#Contact {
+/* #Contact {
 text-align: left;
-padding: 4px;
+padding: 0;
 }
 
 #Privacy {
@@ -167,28 +181,63 @@ padding: 4px;
 #FAQ {
 text-align: left;
 padding: 4px;
+}*/
+
+/*tr th img {
+  text-align: right;
+  max-width: 50px;
+  height: 30px;
+}*/
+
+.col-sm-6 {
+text-align: center;
+color: white;
+margin: 0 auto;
+border-left: solid;
+border-right: solid;
+border-color: black;
 }
 
-tr th img {
-text-align: right;
-padding: 4px;
-max-width: 50px;
-height: 50px;
+.footer_icone {
+  padding: 0 0 20 0;
 }
 
-#About {
-text-align: right;
+.footermenu {
+  text-decoration: underline;
+}
+
+#Aboutus {
+text-decoration: underline;
+column-rule-color: white;
+}
+
+/*.th_footer {
+  height: 20px;
+}*/
+
+/*items_footer {
+  width: 1000px;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: normal;
+  font-size: 15px;
+  padding-top: 0;
+  height: 20px;
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+}*/
+
+/*#About {
+text-align: left;
 padding: 4px;
+font-weight: bold;
 }
 
 #sentence1 {
-text-align: right;
-padding: 4px;
+text-align: left;
 }
 
 #sentence2 {
-text-align: right;
-padding: 4px;
+text-align: left;*/
 }
 
 /* END FOOTER */
