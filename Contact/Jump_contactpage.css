@@ -43,27 +43,49 @@ ul {
 /* FIN BAR DE COMMANDE MENU */
 
 hr {
-  border: 20px;
-  height: 200%;
-  background-color: rgba(255,255,255,0.1);
-}
+  /*display: block;
+  margin-before: 0.5em;
+  margin-after: 0.5em;
+  margin-start: auto;
+  margin-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 4px;*/
+  height: 300px;
+  border: none;
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: #125edcff;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+/*hr:after {
+    background: rgba(0,0,0,0.8);
+    padding: 0 6px;
+    position: relative;
+    top: -13px;
+}*/
 
 /* CONTACT INFORMATION */
 
-.profilerow {
+
+#whoarewe {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  size: 30px;
+  }
+
+.second_block_content {
   webkit-columns: 3 150px;
   moz-columns: 3 150px;
   columns: 3 150px;
   webkit-column-gap: 1em;
   moz-column-gap: 1em;
   column-gap: 1em;
-  }
-
-.contactprofiles {
-  text-align: center;
-  font-family: Helvetica, sans-serif;
-  size: 30px;
-  }
+    }
 
 .img-circle {
     display: block;
@@ -74,16 +96,18 @@ hr {
     border-radius: 50%;
   }
 
-h3 .profilename {
+.profilename {
   text-align: center;
   font-family: Helvetica, sans-serif;
   size: 20px;
+
   }
 
-p .profiledescription {
+.profiledescription {
   text-align: center;
   font-family: Helvetica, sans-serif;
   size: 15px;
+  padding: 10px 40px 10px 40px;
   }
 
 /* FIN CONTACT INFORMATION */
@@ -97,7 +121,7 @@ p .profiledescription {
   }
 
 .googleform {
-  position: relative;
+  position: center;
   left: 200px;
   margin-left: auto;
 	margin-right: auto;
