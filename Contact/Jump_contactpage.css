@@ -140,14 +140,14 @@ hr {
 }
 
 .footer_table {
-  webkit-columns: 500px 2;
-  moz-columns: 500px 2;
-  columns: 500px 2;
+  webkit-columns: 2;
+  moz-columns: 2;
+  columns: 2;
   webkit-column-gap: 0;
   moz-column-gap: 0;
   column-gap: 0;
   color: white;
-  padding: 10px 5px 0px 150px;
+  padding: 20px 50px 0px 200px;
 }
 
 /*.footer_table {
@@ -189,7 +189,16 @@ padding: 4px;
   height: 30px;
 }*/
 
-.col-sm-6 {
+.col-3-auto {
+text-align: center;
+color: white;
+margin: 0 auto;
+border-left: solid;
+border-right: solid;
+border-color: black;
+}
+
+.col-9-auto {
 text-align: center;
 color: white;
 margin: 0 auto;
