@@ -150,70 +150,16 @@ hr {
   padding: 20px 50px 0px 150px;
 }
 
-/*.footer_table {
-  color: white;
-  display: table-footer-group;
-  vertical-align: middle;
-  border-color: inherit;
-  border-bottom: 1px none white;
-  width: 200px;
-}
-
-.tableline {
-  border-bottom: 1px none white;
-}*/
-
-/* #Contact {
-text-align: left;
-padding: 0;
-}
-
-#Privacy {
-text-align: left;
-padding: 4px;
-}
-
-#Terms {
-text-align: left;
-padding: 4px;
-}
-
-#FAQ {
-text-align: left;
-padding: 4px;
-}*/
-
-/*tr th img {
-  text-align: right;
-  max-width: 50px;
-  height: 30px;
-}*/
-
-.text-center {
-text-align: center;
-color: white;
-margin: 0 auto;
-border-left: solid;
-border-right: solid;
-border-color: black;
-}
-
-.col-9-auto {
-text-align: center;
-color: white;
-margin: 0 auto;
-border-left: solid;
-border-right: solid;
-border-color: black;
-}
-
 .img-responsive {
   padding: 0 0 20 0;
 }
 
 #Aboutus {
+text-align: left;
+font-size: 30px;
 text-decoration: underline;
 column-rule-color: white;
+padding: 30px 0 0 0;
 }
 
 .footeritem a:hover {
@@ -226,34 +172,7 @@ span.unclickable {
     color: white;
     cursor: not-allowed;
     text-decoration: none;
+    font-size: 20px;
 }
-
-/*.th_footer {
-  height: 20px;
-}*/
-
-/*items_footer {
-  width: 1000px;
-  vertical-align: middle;
-  text-align: center;
-  font-weight: normal;
-  font-size: 15px;
-  padding-top: 0;
-  height: 20px;
-  border-bottom-color: rgba(0, 0, 0, 0.5);
-}*/
-
-/*#About {
-text-align: left;
-padding: 4px;
-font-weight: bold;
-}
-
-#sentence1 {
-text-align: left;
-}
-
-#sentence2 {
-text-align: left;*/
 
 /* END FOOTER */
