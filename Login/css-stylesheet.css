@@ -43,30 +43,42 @@ ul {
 
 /* FIN BAR DE COMMANDE MENU */
 
-/* Block 1 Titre */
+/* First block Background */
+
+.first_block_background {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* FIN First block Background */
+
 .first_block_content {
   margin: 0;
-  height: 700px;
   text-align: center;
   z-index: 1;
   padding-top: 100px;
   padding-bottom: 100px;
-
+  z-index: 1;
 }
 
 .first_block_content h1 {
   font-size: 50px;
-  color: black;
+  font-style: Helvetica;
+  font-weight: bold;
+  color: white;
   text-align: center;
   z-index: 1;
 }
-/* FIN Block 1 Titre */
 
-/* Block 2 Form */
+/* First block Form */
 
-.second_block {
+.first_block_form {
   font-family: Helvetica;
   font-size: 25px;
+  color: white;
+  font-weight: bold;
   margin: 0;
   position: absolute;
   top: 50%;
@@ -90,10 +102,10 @@ ul {
   vertical-align: middle;
   padding: 10px;
   border: 1px solid #ddd;
-
 }
 
-/* FIN Block 2 Form */
+
+/* FIN first block Form */
 
 /* Block 3 Bouton */
 #button_intro_main {
