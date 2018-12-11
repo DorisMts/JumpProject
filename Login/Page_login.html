@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <head>
   <link href="css-stylesheet.css" rel="stylesheet">
-  <meta name="viewport" content="width=device-width,
-initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
+
 <body>
   <header>
     <!-- BAR DE COMMANDE MENU -->
@@ -21,7 +31,7 @@ initial-scale=1.0">
     <!-- Block 1 Titre -->
     <div class="first_block_content">
       <h1>
-        Filling this information form <br>to be travel ready...</br>
+        Fill in this information form <br>to be travel ready...</br>
 
       </h1>
     </div>
@@ -30,25 +40,61 @@ initial-scale=1.0">
     <!-- Block 2 Form -->
 
     <div class="second_block">
-
-      <form class="form-inline" action="/action_page.php">
-        <label for="First name">FIRST NAME</label>
-        <input type="Last name" id="FIRST NAME" placeholder="FIRST NAME" name="First name">
-        <label for="First name">LAST NAME</label>
-        <input type="Last name" id="LAST NAME" placeholder="LAST NAME" name="Last name">
-        <label for="First name">EMAIL</label>
-        <input type="Last name" id="EMAIL NAME" placeholder="EMAIL" NAME" name="Email name">
+      <form>
+        <div class="form-group">
+          <label for="exampleInputFirstname1">First name</label>
+          <input type="First name" class="form-control" id="exampleInputfirstname" placeholder="First Name">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputLastname1">Last name</label>
+          <input type="First name" class="form-control" id="exampleInputlastname" placeholder="Last Name">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <button type="submit" class="btn btn-primary">DIVE INTO YOUR NEXT ADVENTURE</button>
       </form>
-
   </div>
+
     <!-- FIN Block 2 Form -->
 
-  <!-- Block 3 Bouton -->
-  <div class="third_block">
-      <button id="button_intro_main">DIVE INTO YOUR NEXT ADVENTURE</button>
-  </div>
+  <!-- START FOOTER -->
 
-    </div>
-  <!-- FIN Block 3 Bouton -->
+  <footer>
+
+<div class= "footer">
+
+<!--<div class="reseaux_sociaux">
+  <img id="footer_facebook" src="images_contact/20X20/facebook.png" alt="Facebook">
+  <img id="footer_instagram" src="images_contact/20X20/instagram.png" alt="Instagram">
+  <img id="footer_linkedin" src="images_contact/20X20/linkedin.png" alt="Linkedin">-->
+
+<div class="footer_columns">
+
+  <div class="col-3-auto"></div>
+    <h6 class="footeritem"><a href="/Users/sophievanberchem/Desktop/Codingforgirls2018/GitHub/JumpProject/Contact/Jump_contactpage.html">Contact Us</h6>
+    <h6 class="footeritem"><a href="privacy.asp">Privacy</h6>
+    <h6 class="footeritem"><a href="T&Cs.asp">Terms & Conditions</h6>
+    <h6 class="footeritem"><a href="FAQs.asp">FAQs</h6>
+
+    <br>
+
+  <div class="col-9-auto"></div>
+    <img class="img-responsive" src="images_contact/20X20/facebook.png" alt="Facebook" height="40" width= "40">
+    <img class="img-responsive" src="images_contact/20X20/instagram.png" alt="Instagram" height="40" width= "40">
+    <img class="img-responsive" src="images_contact/20X20/linkedin.png" alt="Linkedin" height="40" width= "40">
+    <h3 class="unclickable" id=Aboutus><span>About Us</span></h3>
+    <br>
+    <h4><span class="unclickable">We are travelling spirits, so we built a tool for it.<br></span></h4>
+    <br>
+    <h6><span class="unclickable">Our aim is to make your travels an easy and pleasant journey.<br></span></h6>
+
+</div>
+
+
+  </footer>
+
+<!-- END FOOTER -->
 
 </html>
